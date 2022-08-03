@@ -1,14 +1,14 @@
 from django.contrib import admin
-from .models import Cliente, Endereco
+from .models import Cliente
 
 
-@admin.register(Endereco)
-class EnderecoAdmin(admin.ModelAdmin):
-    list_display = ('endereco', 'numero', 'bairro',
-                    'cidade', 'estado'
-                    'criacao', 'atualizacao', 'delecao',
-                    'ativo',
-                    )
+#@admin.register(Endereco)
+#class EnderecoAdmin(admin.ModelAdmin):
+#    list_display = ('endereco', 'numero', 'bairro',
+#                    'cidade', 'estado'
+#                    'criacao', 'atualizacao', 'delecao',
+#                    'ativo',
+#                    )
 
 
 @admin.register(Cliente)

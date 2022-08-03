@@ -42,8 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'farmacia_enderecos',
     'produtos',
-    'clientes'
+    'clientes',
+    'funcionarios'
 ]
 
 MIDDLEWARE = [
